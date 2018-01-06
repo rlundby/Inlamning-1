@@ -1,0 +1,11 @@
+// Styling for the info box in the footer
+.info {
+    display: flex;
+    justify-content: space-around;
+     .contact {
+         margin-left: 20px;
+     }
+     p {
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+}
