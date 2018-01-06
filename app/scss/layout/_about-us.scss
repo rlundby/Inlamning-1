@@ -1,0 +1,27 @@
+.about-us {
+    background-color: rgb(245, 245, 245);
+    padding-top: 10px;
+     h1, p, h2, h3, h4 {
+         color: black;
+     }
+     p {
+        font-family: 'Raleway', sans-serif;
+     }   
+}
+
+.meet-me {
+    display: flex;
+    .picture {
+        img {
+            height: 300px;
+            width: auto;
+            
+        } 
+    }
+   .text {
+       margin-left: 10px;
+       a {
+           color: blue;
+       }
+   }
+}
