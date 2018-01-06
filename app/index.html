@@ -18,20 +18,45 @@
 			<h1>FAKE</h1>
 			<h3>Beauty by Maria</h3>
 		</header>
+		<input class="trigger" type="checkbox" id="mainNavButton">
+		<div class="mobile-menu" id="test">
+				<div class="close-label">
+						<label for="mainNavButton" class="menu" onclick>
+							<i class="fa fa-times" aria-hidden="true"></i>
+							</label>
+				</div>
+				<ul>
+					<li><a href="#">HEM</a></li>
+					<li><a href="#">TJÄNSTER</a></li>
+					<li><a href="#">OM OSS</a></li>
+					<li><a href="#">BOKA</a></li>
+				</ul>
+		</div>
 		<div class="hero-content">
 			<div class="mobile-hero">
 				<img src="images/lashes.jpg" alt="">
-				<div class="mobile-booknow">
-						<h1>BOKA NU</h1>
-				</div>
 			</div>
+			<div class="mobile-nav">
+						<label for="mainNavButton" class="menu" onclick>
+							<div class="mobile-button">
+									<h1>MENY</h1>
+							</div>
+						</label>	
+						<a href="#">
+								<div class="mobile-button">
+									<h1>BOKA NU</h1>
+								</div>
+						</a> 
+				</div>
 			
 			<div class="book-now"></div>
 			<div class="lefthero"></div>
 			<div class="righthero"></div>
 		</div>
+		<nav>
+			
+		</nav>
 		<footer>
-			<nav></nav>
 			<div class="info">
 				<div class="open-hours">
 					<p>Öppettider</p>
@@ -48,9 +73,15 @@
 			<div class="social-media">
 				<h1>Följ FAKE</h1>
 				<div class="social-links">
-					<img class="social" src="svg/003-facebook.svg" alt="">
+					<a href="#">
+						<img class="social social-first" src="svg/003-facebook.svg" alt="">
+					</a>	
+					<a href="#">
 					<img class="social" src="svg/001-twitter.svg" alt="">
+					</a>
+					<a href="#">
 					<img class="social" src="svg/002-instagram.svg" alt="">
+					</a>
 				</div>
 			</div>
 		</footer>
