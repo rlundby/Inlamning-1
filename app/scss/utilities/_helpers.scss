@@ -1,0 +1,56 @@
+//Placeholders and classes: ;
+
+///Button placeholder
+%btn{
+	width: 200px;
+  height: 200px;
+	border-radius: 50%;
+	color:white;
+ text-decoration:none;
+ padding:5%;
+margin: 10px;	
+ font-family: 'Poiret One', cursive;
+ font-size:1.5em;
+}
+
+///Header Placeholder
+%hdr{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color:#95989A;
+	font-weight: normal;
+}
+
+///Flexcards container
+
+%flexcard-container{
+	display: flex;
+  flex-wrap: wrap;
+	color: black;
+	
+}
+
+///Flexcard item placeholder
+
+%flexcard-item{
+
+	display: flex; 
+  padding: 0.5em;
+	width: 100%;
+
+}
+
+///Flexcard content placeholder
+%flexcard-content{
+	
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: 100%;
+p {
+	flex: 1 0 auto;
+	
+}
+
+}

@@ -1,0 +1,27 @@
+/// @author Sohail Hasware
+/// Font icons
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+/// COLORS map
+$color: (
+  fail: #E74C3C,
+  success: #2ecc71,
+  maingray: #aca7a7,
+  bg: #F6F6F6,
+  darkgrey: #3e3c3c,
+) !default;
+
+
+
+
+/// Breakpoint map
+
+$breakpoints: (
+  'small':  ( min-width:  40.000em ),
+  'medium': ( min-width:  46.000em ),
+) !default;
+
+
