@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FAKE™ | Ögonfransar, spraytan och mycket mer! </title>
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/print.css">
+	<!--endbuild-->
+</head>
+
+<body>
+	<!-- Start of the main grid layout for the site -->
+	<div class="main-layout">
+
+		<!-- This is the start of the header section -->
+		<header>
+			<h1>FAKE</h1>
+			<h3>Beauty by Maria</h3>
+		</header>
+		<!-- End of the header -->
+
+		<!-- Mobile Menu Starts here -->
+		<input class="trigger" type="checkbox" id="mainNavButton">
+		<div class="mobile-menu" id="test">
+			<div class="close-label">
+				<label for="mainNavButton" class="menu" onclick>
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</label>
+			</div>
+			<ul>
+				<li>
+					<a href="index.html">HEM</a>
+				</li>
+				<li>
+					<a href="services.html">TJÄNSTER</a>
+				</li>
+				<li>
+					<a href="#">OM OSS</a>
+				</li>
+				<li>
+					<a href="booking.html">BOKA</a>
+				</li>
+			</ul>
+		</div>
+		<!-- End of mobile menu -->
+
+		<!-- About us content starts here -->
+		<div class="bookings">
+			<!-- BreadCrumbs -->
+			<ul class="breadcrumb">
+				<li>
+					<a href="index.html">Hem</a>
+				</li>
+				<li>Bokning</li>
+			</ul>
+			<!-- End of Breadcrumbs -->
+			<!-- Start of booking form -->
+			<div id="container">
+				<h1>&bull; Boka din tid &bull;</h1>
+				<div class="underline">
+				</div>
+				<div class="icon_wrapper">
+
+				</div>
+				<form action="#" method="post" id="contact_form">
+					<div class="name">
+						<label for="name"></label>
+						<input type="text" placeholder="Namn..." name="name" id="name_input" required>
+					</div>
+					<div class="email">
+						<label for="email"></label>
+						<input type="email" placeholder="Email..." name="email" id="email_input" required>
+					</div>
+					<div class="telephone">
+						<label for="name"></label>
+						<input type="text" placeholder="Telefonnummer..." name="telephone" id="telephone_input" required>
+					</div>
+					<div class="subject">
+						<label for="subject"></label>
+						<select placeholder="Subject line" name="subject" id="subject_input" required>
+							<option disabled hidden selected>Välj Tjänst</option>
+							<option style="font-size: 1pt; background-color: #000000;" disabled>Ögonfransar</option>
+							<option >Singlefransar Nyset</option>
+							<option >Singlefransar Påfyllning</option>
+							<option >Singlefransar Russian Volume</option>
+							<option >Fransar Borttagning</option>
+							<option style="font-size: 1pt; background-color: #000000;" disabled>Naglar</option>
+							<option>Manikyr</option>
+							<option>Pedikyr</option>
+							<option style="font-size: 1pt; background-color: #000000;" disabled>Spraytan;</option>
+							<option>Helkropp</option>
+							<option>Halvkropp</option>
+							<option>Ansikte</option>
+						</select>
+					</div>
+					<div class="message">
+						<label for="message"></label>
+						<textarea name="message" placeholder="Kommentar" id="message_input" cols="30" rows="5" required></textarea>
+					</div>
+					<div class="submit">
+						<input type="submit" value="Boka" id="form_button" />
+					</div>
+				</form>
+			</div>
+			<!-- End of form -->
+		</div>
+
+
+		<!-- Mobile buttons -->
+		<div class="mobile-nav">
+			<label for="mainNavButton" class="menu" onclick>
+				<div class="mobile-button">
+					<h1>MENY</h1>
+				</div>
+			</label>
+			<a href="#">
+				<div class="mobile-button">
+					<h1>BOKA NU</h1>
+				</div>
+			</a>
+		</div>
+		<!-- End of mobile buttons -->
+
+		<!-- About us content ends here -->
+		<nav>
+
+		</nav>
+		<!-- Start of the footer section -->
+		<footer>
+			<!-- Start of the info section -->
+			<div class="info">
+				<div class="open-hours">
+					<p>Öppettider</p>
+					<p>Mån-Fre: 9-18</p>
+					<p>Helger: 11-16</p>
+				</div>
+				<div class="contact">
+					<p>Kontakt</p>
+					<p>
+						<i class="fa fa-phone" aria-hidden="true"></i> 070-324 48 49</p>
+					<p>
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						maria@fakebeauty.se</p>
+				</div>
+			</div>
+			<!-- End of info section -->
+
+			<!-- Start of social media section -->
+			<div class="social-media">
+				<h1>Följ FAKE</h1>
+				<div class="social-links">
+					<a href="#">
+						<img class="social social-first" src="svg/003-facebook.svg" alt="">
+					</a>
+					<a href="#">
+						<img class="social" src="svg/001-twitter.svg" alt="">
+					</a>
+					<a href="#">
+						<img class="social" src="svg/002-instagram.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<!-- End of social media section -->
+		</footer>
+		<!-- End of the footer -->
+	</div>
+	<!-- End of the main grid layout -->
+
+	<!--build:js js/main.min.js -->
+	<script src="js/lib/a-library.js"></script>
+	<script src="js/lib/another-library.js"></script>
+	<script src="js/main.js"></script>
+	<!-- endbuild -->
+</body>
+
+</html>
