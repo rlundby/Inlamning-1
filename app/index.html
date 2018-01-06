@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SmartFridge®</title>
+    <title>FAKE™ | Ögonfransar, spraytan och mycket mer! </title>
   <!--build:css css/styles.min.css-->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/print.css">
@@ -13,192 +13,15 @@
 </head>
 
 <body>
-	
-	<!-- ONLY VISIBLE ON FRIDGE -->
-	<div class="header-hero">
-
-            <!-- Clock in header -->
-            <div id="header-clock">
-                <h1>15:32</h1>
-            </div>
-
-            <!-- Weather degree in header -->
-            <div id="header-weather-degree">
-                <h1>-1&deg;</h1>
-            </div>
-
-            <!-- Weather place in header -->
-            <div id="header-weather-place">
-                <h3>Växjö</h3>
-            </div>
-
-            <!-- Weather degree in header -->
-            <div id="header-weather-icon">
-            </div>
-
-        </div>
-
-
-        <!-- Searchbar, beneath header-hero -->
-        <div class="search-bar">
-            
-            <!-- search icon in searchbar -->
-            <div id="searchbar-iconblock">
-                <div id="searchbar-icon"></div>
-                <div id="searchbar-divider"></div>
-            </div>
-            
-            <!-- search field in searchbar -->
-            <div id ="searchbar-field">
-                    <input type="text" name="searchbar-top" placeholder="Curry, högrev ...">
-            </div>
-        
-        </div>
-  	<div class="start-content">
-	  <div class="food-item food-item-1">
-		  <a href="recept.html"><img src="images/FoodTest.jpg" alt=""></a>
-	  </div>
-	  <!-- Start of Individual Food-Item -->
-	  <div class="food-item food-item-2">
-		  <img src="images/FoodTest2.jpg" alt="">
-	  </div>
-	  <!-- Start of Individual Food-Item -->
-	  <div class="food-item food-item-1">
-		  <img src="images/FoodTest3.jpg" alt="">
-	  </div>
-	  <!-- Start of Individual Food-Item -->
-	  <div class="food-item food-item-2">
-		  <img src="images/FoodTest4.jpg" alt="">
-	  </div>
-	  <!-- Start of Individual Food-Item -->
-	  <div class="food-item food-item-1">
-		  <img src="images/FoodTest5.jpg" alt="">
-	  </div>
-	  <!-- Start of Individual Food-Item -->
-	  <div class="food-item food-item-2">
-		  <img src="images/FoodTest6.jpg" alt="">
-	  </div>
-	  <div class="todo">
-		  <div class="current-day">
-			  <h1>Måndag</h1>
-			  <div class="agenda">
-				  <!-- Start of Individual timeslot -->
-			  	<div class="timeslot">
-					<p>Dricka Thé</p>
-					<p>07:00</p>
-				</div>
-				  <!-- Start of Individual timeslot -->
-				  <div class="timeslot">
-					<p>Laga Currygryta</p>
-					<p>13:00</p>
-				</div>
-				  <!-- Start of Individual timeslot -->
-				  <div class="timeslot">
-					<p>Äta</p>
-					<p>18:00</p>
-				</div>
-				  <!-- Start of Individual timeslot -->
-				  <div class="timeslot">
-					<p>Sova</p>
-					<p>22:30</p>
-				</div>
-			  </div>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Tisdag</p>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Onsdag</p>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Torsdag</p>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Fredag</p>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Lördag</p>
-		  </div>
-		  <!-- Start of Individual Days -->
-		  <div class="day">
-			  <p>Söndag</p>
-		  </div>
-		  <!--<img src="images/todolist.jpg" alt="">-->
-	  </div>
+	<div class="main-layout">
+		<header></header>
+		<div class="hero-content">
+			<div class="book-now"></div>
+			<div class="lefthero"></div>
+			<div class="righthero"></div>
+		</div>
+		<footer></footer>
 	</div>
-	
-	<!-- END OF TABLET ONLY -->
-	
-	<!-- ONLY VISIBLE ON PHONE -->
-	
-	<div class="mobile-layout">
-		<!-- Start of Mobile Header -->
-		<div class="main-content">
-		<!-- Start of the popular recipies section -->
-		<div class="popular">
-			<h1>Populära Recept</h1>
-			<!-- Current recipies shown -->
-			<div class="recipies">
-				<img src="images/FoodTest5.jpg" alt="">
-				<img src="images/FoodTest4.jpg" alt="">
-				<img src="images/FoodTest6.jpg" alt="">
-			</div>
-		</div>
-		<!-- Start of the todays dinner section -->
-		<div class="todays-dinner">
-			<h1>Dagens Middag</h1>
-			<div class="dinner-layout">
-				<div class="todays-recepie">
-					<img src="images/FoodTest5.jpg" alt="">
-				</div>
-				<div class="todays-checklist">
-					<h1>Måndag</h1>
-					<!-- Start of check-slot -->
-					<span class="check-slot">
-						<i class="fa fa-check" aria-hidden="true"></i><p>Du har alla ingredienser hemma</p>
-					</span>
-					<!-- Start of check-slot -->
-					<span class="check-slot">
-						<i class="fa fa-check" aria-hidden="true"></i><p>Du har gett denna rätt fyra stjärnor</p>
-					</span>
-					<!-- Start of check-slot -->
-					<span class="check-slot">
-						<i class="fa fa-clock-o" aria-hidden="true"></i><p>Börja nu för att vara klar vid 18:00</p>
-					</span>
-					<!-- Start of check-slot -->
-					<span class="check-slot">
-						<i class="fa fa-warning" aria-hidden="true"></i><p>Du kommer använda dina sista ägg. Lägga till fler på inköpstlistan?</p>
-					</span>
-				</div>	
-			</div>
-			
-		</div>
-		<div class="temp-control">
-			<img src="images/fridge-kyla.jpg" alt="">
-		</div>
-		<div class="fridge-control">
-			
-		</div>
-			</div>
-	</div>
-	
-	<!-- END OF PHONE ONLY -->
-<!-- footer, also the only menu for the UI-->
-        <div class="footer-menu">
-            <ul>
-                <li><a href="index.html"><div id="menuItem1"></div></a></li>
-                <li><a href="recept.html"><div id="menuItem2"></div></a></li>
-                <li><a href=""><div id="menuItem3"></div></a></li>
-                <li><a href="shoppinglist.html"><div id="menuItem4"></div></a></li>
-                <li><a href=""><div id="menuItem5"></div></a></li>
-                <li><a href=""><div id="menuItem6"></div></a></li>
-            </ul>
-        </div>
   
   <!--build:js js/main.min.js -->
   <script src="js/lib/a-library.js"></script>
