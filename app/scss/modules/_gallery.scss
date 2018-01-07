@@ -6,5 +6,14 @@
      }
      p {
         font-family: 'Raleway', sans-serif;
-     }   
+     }  
+     @include respond-to ('medium') {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-auto-flow: dense;
+     } 
+    }
+
+    .title {
+        grid-column: 1/4;
     }
