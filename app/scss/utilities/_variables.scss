@@ -8,14 +8,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-/// COLORS map
+/// COLORS variables
 $color: (
-  fail: #E74C3C,
+  background: #E74C3C,
   success: #2ecc71,
   maingray: #aca7a7,
   bg: #F6F6F6,
   darkgrey: #3e3c3c,
 ) !default;
+
+/// Main colors
+
+$bgcolor: #131313;
 
 
 

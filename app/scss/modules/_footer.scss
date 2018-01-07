@@ -3,6 +3,7 @@
 footer {
     @include respond-to ('medium') {
         grid-area: footer;
+        background: $bgcolor;
     }
 }
 

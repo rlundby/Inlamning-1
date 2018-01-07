@@ -1,7 +1,19 @@
 nav {
+    background: $bgcolor;
     display: none;
     grid-area: menu;
     @include respond-to ('medium') {
         display: flex;
+        justify-content: center;
+    }
+    .menu-button {
+        padding-left: 60px;
+        border-left: 1px solid gray;
+        margin-right: 60px;
+        height: 60px;
+        h3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+        }
     }
 }
