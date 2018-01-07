@@ -4,6 +4,8 @@ footer {
     @include respond-to ('medium') {
         grid-area: footer;
         background: $bgcolor;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -17,6 +19,9 @@ footer {
      p {
         font-family: 'Montserrat', Arial, sans-serif;
      }
+     @include respond-to ('medium') {
+       margin-left: 100px;
+    }
 }
 
 .social-media {
@@ -31,5 +36,8 @@ footer {
     .social-first {
         margin-left: 0px;
     }
+    @include respond-to ('medium') {
+        margin-right: 100px;
+     }
 }
 

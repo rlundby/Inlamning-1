@@ -1,7 +1,9 @@
+/// This is the main layout of the startpage
+
 .main-layout {
     @include respond-to ('medium') {
         display: grid;
         grid-template-areas: "header"  "heroimg1"  "menu" "footer" ;
-        grid-template-rows: 180px 500px 100px 300px;
+        grid-template-rows: 180px 500px 100px 170px;
     }
 }
