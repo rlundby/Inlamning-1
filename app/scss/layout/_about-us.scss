@@ -1,3 +1,5 @@
+
+/// This is the main styling for the about-us section of the site
 .about-us {
     background-color: rgb(245, 245, 245);
     padding-top: 10px;
@@ -12,7 +14,7 @@
          grid-template-columns: 1fr 1fr;
      }  
 }
-
+/// Meet-me styling
 .meet-me {
     display: flex;
     .picture {
@@ -39,6 +41,8 @@
         margin: 20px;
         }
 }
+
+/// This is the grid for customer images
 .customer-images {
     @include respond-to('medium') {
         display: grid;

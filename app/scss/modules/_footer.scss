@@ -1,5 +1,4 @@
-// Styling for the footer
-
+/// Styling for the footer
 footer {
     @include respond-to ('medium') {
         grid-area: footer;
@@ -9,7 +8,7 @@ footer {
     }
 }
 
-
+/// The info element of the footer
 .info {
     display: flex;
     justify-content: space-around;
@@ -24,6 +23,7 @@ footer {
     }
 }
 
+///The Social media element of the footer
 .social-media {
     display: flex;
     flex-direction: column;
