@@ -1,4 +1,12 @@
-// Styling for the info box in the footer
+// Styling for the footer
+
+footer {
+    @include respond-to ('medium') {
+        grid-area: footer;
+    }
+}
+
+
 .info {
     display: flex;
     justify-content: space-around;

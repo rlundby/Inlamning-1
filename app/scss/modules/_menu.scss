@@ -1,0 +1,7 @@
+nav {
+    display: none;
+    grid-area: menu;
+    @include respond-to ('medium') {
+        display: flex;
+    }
+}

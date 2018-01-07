@@ -1,0 +1,7 @@
+.main-layout {
+    @include respond-to ('medium') {
+        display: grid;
+        grid-template-areas: "header"  "heroimg1"  "menu" "footer" ;
+        grid-template-rows: 180px 500px 100px 198px;
+    }
+}

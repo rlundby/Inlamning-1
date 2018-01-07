@@ -1,0 +1,40 @@
+.hero-content {
+    @include respond-to ('medium') {
+    display: flex;
+    max-width: 100vw; 
+    }
+}
+
+.lefthero, .righthero {
+    display: none;
+    @include respond-to ('medium') {
+        display: block;
+        padding: 2px;
+        z-index: 0;
+           img {
+            width: 100%;
+            height: auto;
+            }  
+    }
+}
+.lefthero {
+    grid-area: heroimg1;
+}
+.righthero {
+    grid-area: heroimg2;
+}
+
+.book-now {
+    display: none;
+    @include respond-to ('medium') {
+        display: block;
+        position: absolute;
+        z-index: 3;
+        left: 43%;
+        top: 50%;
+    }
+    .book-now-button {
+        @extend %bookbtn;
+    }
+
+}

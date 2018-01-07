@@ -8,10 +8,13 @@ header {
         margin-top: 10px;
     }
     h3 {
-        color: rgb(70, 70, 70);
+        color: rgb(224, 221, 221);
         font-family: 'Alex Brush', cursive;
         font-size: 30px;
         margin-top: -40px;
         margin-bottom: 10px;
+    }
+    @include respond-to('medium') {
+        grid-area: header;
     }
 }
